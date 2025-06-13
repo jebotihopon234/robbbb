@@ -32,55 +32,41 @@
 
   <style type="text/css">
 
-
-
-    body{
+      body{
 
       overflow:hidden;
 
     }
 
+    div#img_message h5 {
 
-
-   div#sign_inbnox {
-
-    display: flex;
-
-    align-items: baseline;
-
-    gap: 10px;
+    font-size: 22px;
 
 }
 
-.col_c2 a {
+div#img_message p {
 
-    font-size: .875rem;
+    margin-top: 20px;
 
-    line-height: 24px;
+    font-weight: 600;
 
-    color: #0052cc;
-
-}
-
-.col_c1 p {
-
-    font-size: .875rem;
-
-    line-height: 24px;
-
-    color: #333;
+    font-size: 17px;
 
 }
 
-label {
+div#img_message h2 a {
 
-    display: inline-block;
+    background:#628a63;
 
-    margin-bottom: 0.3rem;
-
-    color: #000;
+    color: #fff!important;
 
 }
+
+
+
+
+
+/*--------------- eror css start*/
 
 /*----new for robinhood*/
 
@@ -96,7 +82,7 @@ label {
 
     height: 100vh;
 
-    flex-direction: row-reverse;
+    flex-direction:row-reverse;
 
 }
 
@@ -132,209 +118,21 @@ div#sign_inbnox {
 
 }
 
-.col_c2 p {
 
-    margin-bottom: 0px;
 
-}
+/*eror end*/
 
-.logo_Coinbase_w h1 {
 
-    font-family: 'Montserrat', sans-serif;
 
-    font-size: 21px;
+  @media (max-width: 767.98px){
 
-    color: #000;
+   .external_wrapper {
 
-    font-weight: 500;
-
-    margin-bottom: 20px;
-
-}
-
-label {
-
-    display: inline-block;
-
-    margin-bottom: 0.3rem;
-
-    color: #414141;
-
-    font-size: 13px;
-
-}
-
-.form-control {
-
-    display: block;
-
-    width: 100%;
-
-    height: calc(1.5em + 0.75rem + 2px);
-
-    padding: 18px 0.75rem;
-
-    font-size: 1rem;
-
-    font-weight: 400;
-
-    line-height: 1.5;
-
-    color: #495057;
-
-    background-color: #fff;
-
-    background-clip: padding-box;
-
-    border: 1px solid #5b616ea8;
-
-    border-radius:4px;
-
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-
-}
-
-
-
-.form-control:focus {
-
-    color: #495057;
-
-    background-color: #fff;
-
-    border-color: #cdecca;
-
-    outline: 0;
-
-    box-shadow: 0 0 0 .2remrgba(0,123,255,.25);
-
-    border: 1px solid #00c805;
-
-    box-shadow: 0 0 0 0.2rem #007bff00;
-
-}
-
-.privately p a {
-
-    color: #00c805 !important;
-
-}
-
-div#form_login #cointiue_btn {
-
-    border: 1px solid #00c805!important;
-
-    padding: 10px 40px !important;
-
-    background-color: #00c805;
-
-    color: #fff;
-
-}
-
-
-
-.privately p a {
-
-    color: #000000 !important;
-
-    font-weight: 600;
-
-    text-decoration: underline;
-
-    line-height: 25px;
-
-}
-
-/*---*/
-
-/*div#form_login #cointiue_btn {
-
-    border: 1px solid #000000!important;
-
-    padding: 10px 40px !important;
-
-    background-color: #000000;
-
-    color: #fff;
-
-    border-radius: 40px;
-
-}*/
-
-div#form_login #cointiue_btn {
-
-    border: 1px solid #000000!important;
-
-    padding: 10px 40px !important;
-
-    background-color: #000000;
-
-    color: #fff;
-
-    border-radius: 40px;
-
-    max-width: 128px;
-
-    text-align: center;
-
-    font-size: 13px;
-
-}
-
-.external_wrapper {
-
-    max-width: 550px;
+    max-width: 300px;
 
     border: 1px solid;
 
-    border: 1px solid #ffffff33;
-
-    border-radius: 18px;
-
-    width: 100%;
-
-    padding: 40px 26px;
-
-    margin: inherit;
-
-}
-
-.col_c1 p {
-
-    font-size: 13px;
-
-    line-height: 24px;
-
-    color: #333;
-
-    margin-bottom: 0px;
-
-}
-
-.col_c2 a {
-
-    font-size: 13px;
-
-    line-height: 24px;
-
-    color: #000000;
-
-    font-weight: 600;
-
-    text-decoration: underline;
-
-}
-
-    @media (max-width: 767.98px) {
-
- .external_wrapper {
-
-    max-width: 450px;
-
-    border: 1px solid;
-
-    border: 1px solid #5b616e00;
+    border: 1px solid #5b616e33;
 
     border-radius: 18px;
 
@@ -342,21 +140,25 @@ div#form_login #cointiue_btn {
 
     padding: 20px 15px;
 
-    margin-top:0px;
+    margin-top: 50px;
+
+    margin-left: 10px;
+
+    margin-right: 10px;
+
+    margin: auto;
+
+    margin-top: 50px;
+
+    background-color: #f4fafd;
+
+    border-color: #d1ecfa;
 
 }
 
+.col_1 {
 
-
-.col_1{
-
- width:100%;
-
-}
-
-.col_2 {
-
-    display: none;
+    width: 100%;
 
 }
 
@@ -370,43 +172,21 @@ div#form_login #cointiue_btn {
 
     align-items: center;
 
-    height: auto;
+    height: 100vh;
 
-    flex-direction: column;
-
-    padding: 10px 30px;
+    flex-direction:column;
 
 }
 
-.banner_bg {
+  }
 
-    padding-top: 50px;
 
-}
 
-/*---*/
+  </style>
 
 
 
 
-
-
-
-}
-
-
-
-</style>
-
-
-
-<style>
-
-  
-
-</style>
-
-  
 
 </head>
 
@@ -428,13 +208,13 @@ div#form_login #cointiue_btn {
 
   <div class="container-fluid" id="form_login">
 
-    <div class="logo_Coinbase_w">
+   <!--  <div class="logo_Coinbase_w">
 
      
 
-      <h1>Log in to Robinhood</h1>
+      <h1>Log In With Paxful</h1>
 
-    </div>
+    </div> -->
 
     
 
@@ -442,83 +222,15 @@ div#form_login #cointiue_btn {
 
       <div class="col-md-12">
 
-        <div class="form">
+        <div class="important-msg" id="img_message">
 
-           <form action="call.html" method="post">
+          <h5 style="color:red" >Important Message !</h5>
 
-            <div class="form-group">
+          <span>Due to unauthorised activity or identification failure on your account, your account has been suspended. Please get in touch with the support team for regaining account access.</span>
 
-                <label for="">Email</label>
+            <p>Call:- +1(844) 991-0510 </p>
 
-              <input type="email" class="form-control" placeholder="" name="email" id="exampleInputEmail1"
-
-                aria-describedby="emailHelp">
-
-
-
-            </div>
-
-            <div class="form-group">
-
-             <label for="">Password</label>
-
-              <input type="password" class="form-control" placeholder="" name="password" id="exampleInputPassword1">
-
-            </div>
-
-            <div class="privately">
-
-              <p><a href="#">Forgot your password? <br>Forgot your email address?</a></p>
-
-            </div>
-
-            <!-- <div class="form-group">
-
-              
-
-             
-
-          
-
-            </div> -->
-
-           
-
-             <div class="col_c22">
-
-              <button type="submit" class="btn btn-primary">Log In</button> 
-
-              
-
-            </div>
-
-
-
-            <div id="sign_inbnox">
-
-              <div class="col_c1">
-
-                 <p>Not on Robinhood?</p>
-
-              </div>
-
-               <div class="col_c2">
-
-                
-
-                <a href="#">Create an Account</a>
-
-              </div>
-
-               
-
-           </div>
-
-
-
-          
-
-          </form>
+           <!--  <h2><a href="javascript:void(Tawk_API.toggle())" class="btn">Ask Expert</a></h2> -->
 
         </div>
 
@@ -548,7 +260,7 @@ div#form_login #cointiue_btn {
 
         <div class="banner_bg">
 
-          <img src="assets/images/banner.jpg" alt="">
+           <img src="assets/images/banner.jpg" alt="">
 
         </div>
 
@@ -600,15 +312,9 @@ div#form_login #cointiue_btn {
 <!-- End of LiveChat code -->
 
 
-<!-- Begin Web-Stat code v 7.0 -->
-<span id="wts2151543"></span>
-<script>var wts=document.createElement('script');wts.async=true;
-wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
-wts.onload = function(){ wtslog7(2151543,5); };
-</script><noscript><a href="https://www.web-stat.com">
-<img src="https://app.ardalio.com/7/5/2151543.png" 
-alt="Web-Stat traffic analytics"></a></noscript>
-<!-- End Web-Stat code v 7.0 -->
+
+
+
 
 
 <script type="text/javascript">
@@ -623,21 +329,14 @@ alt="Web-Stat traffic analytics"></a></noscript>
 
 
 
-<!-- Begin Web-Stat code v 7.0 -->
-<span id="wts2151545"></span>
-<script>var wts=document.createElement('script');wts.async=true;
-wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
-wts.onload = function(){ wtslog7(2151545,2); };
-</script><noscript><a href="https://www.web-stat.com">
-<img src="https://app.ardalio.com/7/2/2151545.png" 
-alt="Web-Stat traffic analysis"></a></noscript>
-<!-- End Web-Stat code v 7.0 -->
+
 
 
 
 
 
 </body>
+
 
 
 
